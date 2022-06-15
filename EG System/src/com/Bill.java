@@ -68,8 +68,7 @@ public class Bill {
 		return output;
 		
 	}
-	
-	
+		
 	//reading bills
 	public String readBill() {
 		String output = "";
@@ -147,6 +146,7 @@ public class Bill {
 			if (con == null) {
 				return "Error while connecting to the database for updating.";
 			}
+			
 			// create a prepared statement
 			String query = "UPDATE bill SET UserName=?, UserAddress=?, UnitCount=?, BillAmount=?, DueAmount=?, Date=? WHERE BillID = ?";
 			
