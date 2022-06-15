@@ -55,8 +55,6 @@ public class Bill {
 			preparedStmt.setString(6, Date);
 			
 			
-			
-			
 			//execute the statement
 			 preparedStmt.execute(); 
 			 con.close(); 
@@ -174,7 +172,6 @@ public class Bill {
 		} 
 		return output;
 	}
-	
 	
 	//deleting bills
 	public String deleteBill(int BillID) 
