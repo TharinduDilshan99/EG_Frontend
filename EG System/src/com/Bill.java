@@ -68,6 +68,7 @@ public class Bill {
 		return output;
 		
 	}
+	
 		
 	//reading bills
 	public String readBill() {
