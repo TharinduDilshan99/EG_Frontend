@@ -107,5 +107,4 @@ public class BillAPI extends HttpServlet {
 				return map;
 		}
 
-
 }
